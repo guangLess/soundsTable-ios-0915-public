@@ -1,0 +1,529 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		624698B11BD000F000302763 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 624698B01BD000F000302763 /* main.m */; };
+		624698B41BD000F000302763 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 624698B31BD000F000302763 /* AppDelegate.m */; };
+		624698BA1BD000F000302763 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 624698B81BD000F000302763 /* Main.storyboard */; };
+		624698BC1BD000F000302763 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 624698BB1BD000F000302763 /* Assets.xcassets */; };
+		624698BF1BD000F000302763 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 624698BD1BD000F000302763 /* LaunchScreen.storyboard */; };
+		624698CA1BD000F000302763 /* FISSoundTableTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 624698C91BD000F000302763 /* FISSoundTableTests.m */; };
+		624698D51BD000F000302763 /* FISSoundTableUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 624698D41BD000F000302763 /* FISSoundTableUITests.m */; };
+		624698E41BD0011000302763 /* FISSoundTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 624698E31BD0011000302763 /* FISSoundTableViewCell.m */; settings = {ASSET_TAGS = (); }; };
+		624698E71BD00EEC00302763 /* speaker-with-sound_318-67906.png in Resources */ = {isa = PBXBuildFile; fileRef = 624698E51BD00EEC00302763 /* speaker-with-sound_318-67906.png */; settings = {ASSET_TAGS = (); }; };
+		624698E81BD00EEC00302763 /* images.png in Resources */ = {isa = PBXBuildFile; fileRef = 624698E61BD00EEC00302763 /* images.png */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		624698C61BD000F000302763 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 624698A41BD000F000302763 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 624698AB1BD000F000302763;
+			remoteInfo = FISSoundTable;
+		};
+		624698D11BD000F000302763 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 624698A41BD000F000302763 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 624698AB1BD000F000302763;
+			remoteInfo = FISSoundTable;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		624698AC1BD000F000302763 /* FISSoundTable.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FISSoundTable.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		624698B01BD000F000302763 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		624698B21BD000F000302763 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		624698B31BD000F000302763 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		624698B91BD000F000302763 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		624698BB1BD000F000302763 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		624698BE1BD000F000302763 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		624698C01BD000F000302763 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		624698C51BD000F000302763 /* FISSoundTableTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FISSoundTableTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		624698C91BD000F000302763 /* FISSoundTableTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FISSoundTableTests.m; sourceTree = "<group>"; };
+		624698CB1BD000F000302763 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		624698D01BD000F000302763 /* FISSoundTableUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FISSoundTableUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		624698D41BD000F000302763 /* FISSoundTableUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FISSoundTableUITests.m; sourceTree = "<group>"; };
+		624698D61BD000F000302763 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		624698E21BD0011000302763 /* FISSoundTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FISSoundTableViewCell.h; sourceTree = "<group>"; };
+		624698E31BD0011000302763 /* FISSoundTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FISSoundTableViewCell.m; sourceTree = "<group>"; };
+		624698E51BD00EEC00302763 /* speaker-with-sound_318-67906.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "speaker-with-sound_318-67906.png"; sourceTree = "<group>"; };
+		624698E61BD00EEC00302763 /* images.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = images.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		624698A91BD000F000302763 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		624698C21BD000F000302763 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		624698CD1BD000F000302763 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		624698A31BD000F000302763 = {
+			isa = PBXGroup;
+			children = (
+				624698AE1BD000F000302763 /* FISSoundTable */,
+				624698C81BD000F000302763 /* FISSoundTableTests */,
+				624698D31BD000F000302763 /* FISSoundTableUITests */,
+				624698AD1BD000F000302763 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		624698AD1BD000F000302763 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				624698AC1BD000F000302763 /* FISSoundTable.app */,
+				624698C51BD000F000302763 /* FISSoundTableTests.xctest */,
+				624698D01BD000F000302763 /* FISSoundTableUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		624698AE1BD000F000302763 /* FISSoundTable */ = {
+			isa = PBXGroup;
+			children = (
+				624698B21BD000F000302763 /* AppDelegate.h */,
+				624698B31BD000F000302763 /* AppDelegate.m */,
+				624698B81BD000F000302763 /* Main.storyboard */,
+				624698E21BD0011000302763 /* FISSoundTableViewCell.h */,
+				624698E31BD0011000302763 /* FISSoundTableViewCell.m */,
+				624698BB1BD000F000302763 /* Assets.xcassets */,
+				624698BD1BD000F000302763 /* LaunchScreen.storyboard */,
+				624698C01BD000F000302763 /* Info.plist */,
+				624698E51BD00EEC00302763 /* speaker-with-sound_318-67906.png */,
+				624698E61BD00EEC00302763 /* images.png */,
+				624698AF1BD000F000302763 /* Supporting Files */,
+			);
+			path = FISSoundTable;
+			sourceTree = "<group>";
+		};
+		624698AF1BD000F000302763 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				624698B01BD000F000302763 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		624698C81BD000F000302763 /* FISSoundTableTests */ = {
+			isa = PBXGroup;
+			children = (
+				624698C91BD000F000302763 /* FISSoundTableTests.m */,
+				624698CB1BD000F000302763 /* Info.plist */,
+			);
+			path = FISSoundTableTests;
+			sourceTree = "<group>";
+		};
+		624698D31BD000F000302763 /* FISSoundTableUITests */ = {
+			isa = PBXGroup;
+			children = (
+				624698D41BD000F000302763 /* FISSoundTableUITests.m */,
+				624698D61BD000F000302763 /* Info.plist */,
+			);
+			path = FISSoundTableUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		624698AB1BD000F000302763 /* FISSoundTable */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 624698D91BD000F000302763 /* Build configuration list for PBXNativeTarget "FISSoundTable" */;
+			buildPhases = (
+				624698A81BD000F000302763 /* Sources */,
+				624698A91BD000F000302763 /* Frameworks */,
+				624698AA1BD000F000302763 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FISSoundTable;
+			productName = FISSoundTable;
+			productReference = 624698AC1BD000F000302763 /* FISSoundTable.app */;
+			productType = "com.apple.product-type.application";
+		};
+		624698C41BD000F000302763 /* FISSoundTableTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 624698DC1BD000F000302763 /* Build configuration list for PBXNativeTarget "FISSoundTableTests" */;
+			buildPhases = (
+				624698C11BD000F000302763 /* Sources */,
+				624698C21BD000F000302763 /* Frameworks */,
+				624698C31BD000F000302763 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				624698C71BD000F000302763 /* PBXTargetDependency */,
+			);
+			name = FISSoundTableTests;
+			productName = FISSoundTableTests;
+			productReference = 624698C51BD000F000302763 /* FISSoundTableTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		624698CF1BD000F000302763 /* FISSoundTableUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 624698DF1BD000F000302763 /* Build configuration list for PBXNativeTarget "FISSoundTableUITests" */;
+			buildPhases = (
+				624698CC1BD000F000302763 /* Sources */,
+				624698CD1BD000F000302763 /* Frameworks */,
+				624698CE1BD000F000302763 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				624698D21BD000F000302763 /* PBXTargetDependency */,
+			);
+			name = FISSoundTableUITests;
+			productName = FISSoundTableUITests;
+			productReference = 624698D01BD000F000302763 /* FISSoundTableUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		624698A41BD000F000302763 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = Guang;
+				TargetAttributes = {
+					624698AB1BD000F000302763 = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+					624698C41BD000F000302763 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = 624698AB1BD000F000302763;
+					};
+					624698CF1BD000F000302763 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = 624698AB1BD000F000302763;
+					};
+				};
+			};
+			buildConfigurationList = 624698A71BD000F000302763 /* Build configuration list for PBXProject "FISSoundTable" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 624698A31BD000F000302763;
+			productRefGroup = 624698AD1BD000F000302763 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				624698AB1BD000F000302763 /* FISSoundTable */,
+				624698C41BD000F000302763 /* FISSoundTableTests */,
+				624698CF1BD000F000302763 /* FISSoundTableUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		624698AA1BD000F000302763 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				624698BF1BD000F000302763 /* LaunchScreen.storyboard in Resources */,
+				624698E81BD00EEC00302763 /* images.png in Resources */,
+				624698BC1BD000F000302763 /* Assets.xcassets in Resources */,
+				624698E71BD00EEC00302763 /* speaker-with-sound_318-67906.png in Resources */,
+				624698BA1BD000F000302763 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		624698C31BD000F000302763 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		624698CE1BD000F000302763 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		624698A81BD000F000302763 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				624698E41BD0011000302763 /* FISSoundTableViewCell.m in Sources */,
+				624698B41BD000F000302763 /* AppDelegate.m in Sources */,
+				624698B11BD000F000302763 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		624698C11BD000F000302763 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				624698CA1BD000F000302763 /* FISSoundTableTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		624698CC1BD000F000302763 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				624698D51BD000F000302763 /* FISSoundTableUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		624698C71BD000F000302763 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 624698AB1BD000F000302763 /* FISSoundTable */;
+			targetProxy = 624698C61BD000F000302763 /* PBXContainerItemProxy */;
+		};
+		624698D21BD000F000302763 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 624698AB1BD000F000302763 /* FISSoundTable */;
+			targetProxy = 624698D11BD000F000302763 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		624698B81BD000F000302763 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				624698B91BD000F000302763 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		624698BD1BD000F000302763 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				624698BE1BD000F000302763 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		624698D71BD000F000302763 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		624698D81BD000F000302763 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		624698DA1BD000F000302763 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FISSoundTable/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = waterBB.FISSoundTable;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		624698DB1BD000F000302763 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FISSoundTable/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = waterBB.FISSoundTable;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		624698DD1BD000F000302763 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FISSoundTableTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = waterBB.FISSoundTableTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FISSoundTable.app/FISSoundTable";
+			};
+			name = Debug;
+		};
+		624698DE1BD000F000302763 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FISSoundTableTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = waterBB.FISSoundTableTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FISSoundTable.app/FISSoundTable";
+			};
+			name = Release;
+		};
+		624698E01BD000F000302763 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FISSoundTableUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = waterBB.FISSoundTableUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FISSoundTable;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		624698E11BD000F000302763 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FISSoundTableUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = waterBB.FISSoundTableUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FISSoundTable;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		624698A71BD000F000302763 /* Build configuration list for PBXProject "FISSoundTable" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				624698D71BD000F000302763 /* Debug */,
+				624698D81BD000F000302763 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		624698D91BD000F000302763 /* Build configuration list for PBXNativeTarget "FISSoundTable" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				624698DA1BD000F000302763 /* Debug */,
+				624698DB1BD000F000302763 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		624698DC1BD000F000302763 /* Build configuration list for PBXNativeTarget "FISSoundTableTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				624698DD1BD000F000302763 /* Debug */,
+				624698DE1BD000F000302763 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		624698DF1BD000F000302763 /* Build configuration list for PBXNativeTarget "FISSoundTableUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				624698E01BD000F000302763 /* Debug */,
+				624698E11BD000F000302763 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 624698A41BD000F000302763 /* Project object */;
+}
